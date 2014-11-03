@@ -35,7 +35,7 @@ if (filter_var($email, FILTER_VALIDATE_EMAIL))
 
 		// Send mail by PHP Mail Function.
 
-		mail("metroid.p2p@gmail.com", $subject, $sendmessage, $headers);
+		mail("contato@spin.agr.br", $subject, $sendmessage, $headers);
 		echo "Sua mensagem foi enviada. Em breve entraremos em contato.";
 		}
 	}
